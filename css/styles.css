@@ -226,6 +226,9 @@ footer {
 }
 
 .btn-rounded-white {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -95px;
     display: inline-block;
     color: var(--accent-color);
     padding: 15px 25px;
@@ -256,6 +259,7 @@ footer {
     font-size: 2em;
     font-weight: 300;
     margin: 0 0 30px 0;
+
 }
 
 .heading:after {
@@ -276,13 +280,14 @@ footer {
 
 #lead {
     position: relative;
-    height: 100vh;
+    height: 67vh;
     min-height: 500px;
     max-height: 1080px;
     background: url(../images/lead-bg.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
+    background-position: center bottom;
 }
 
 #lead-content {
@@ -368,18 +373,28 @@ footer {
     }
 }
 
+.profile-photo {
+  width: 150px;           /* Adjust size as needed */
+  height: 150px;
+  border-radius: 0%;     /* Makes the photo circular */
+  margin-left: -180px;
+  margin-top: 10px;
+  
+}
+
 #about {
-    padding: 75px 15px;
+    padding: 25px 15px 55px 15px;
     border-bottom: 1px solid #dcd9d9;
 }
 
 #about h2 {
+    margin-top: 50px;
     color: var(--text-dark);
 }
 
 #about p {
     color: var(--text-light);
-    margin: 0;
+    margin-top: -155px;
 }
 
 #experience {
